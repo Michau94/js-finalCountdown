@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>It's the final countdown</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.0/css/bootstrap.min.css'
+        integrity='sha512-F7WyTLiiiPqvu2pGumDR15med0MDkUIo5VTVyyfECR5DZmCnDhti9q5VID02ItWjq6fvDfMaBaDl2J3WdL1uxA=='
+        crossorigin='anonymous' />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allison&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+
+    <header class="d-flex justify-content-end p-2">
+        <h1 class="text-center">It's the final countdown</h1>
+    </header>
+    <div class="container">
+
+        <main>
+            <div id="main-row" class="row align-content-center">
+                <div class="d-flex flex-wrap justify-content-center">
+                    <input id="inputDate" type="date">
+                    <button id="start-countdown" class=" btn btn-success">Start Countdown</button>
+                    <button id="reset" class="btn btn-danger">Reset</button>
+                </div>
+                <div id="timer" class=" my-5 d-flex flex-wrap justify-content-around align-items-center">
+                </div>
+            </div>
+        </main>
+
+
+        <footer class="d-flex align-items-end justify-content-center">
+            <p class="text-center">Copyright by Micciuino <span id="year"></span></p>
+        </footer>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
